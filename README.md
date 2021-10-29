@@ -1,5 +1,5 @@
 # Jarkom-Modul-2-D02-2021
-Luffy adalah seorang yang akan jadi Raja Bajak Laut. Demi membuat Luffy menjadi Raja Bajak Laut, Nami ingin membuat sebuah peta, bantu Nami untuk membuat peta berikut:
+Luffy adalah seorang yang akan jadi Raja Bajak Laut. Demi membuat Luffy menjadi Raja Bajak Laut, Nami ingin membuat sebuah peta, bantu Nami untuk membuat peta berikut :
 
 <img width="642" alt="Screen Shot 2021-10-28 at 22 49 43" src="https://user-images.githubusercontent.com/72669398/139291194-1e71e271-4ae7-4ed9-9549-54fad2e22d1a.png">
 
