@@ -15,39 +15,54 @@ EniesLobby akan dijadikan sebagai DNS Master, Water7 akan dijadikan DNS Slave, d
 EniesLobby akan dijadikan sebagai DNS Master, Water7 akan dijadikan DNS Slave, dan Skypie akan digunakan sebagai Web Server. Terdapat 2 Client yaitu Loguetown, dan Alabasta. Semua node terhubung pada router Foosha, sehingga dapat mengakses internet.
 
 Pertama yang dilakukan terlebih dahulu adalah membuat topologi seperti berikut:
+
 ![no1](https://user-images.githubusercontent.com/72669398/139531800-575957e2-0747-4627-9871-f3029f3dcfb5.jpg)
 
 Kemudian, konfigurasi dilakukan pada setiap node yang ada seperti berikut:
 - Foosha
+dengan menjalankan command ``iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 10.22.0.0/16`` pada router foosha gunanya agar dapat terkoneksi dengan internet.
+
 ![no1-a](https://user-images.githubusercontent.com/72669398/139532067-211ff5bb-139a-4df1-9da0-ec3ddf1eb084.jpg)
 
 - Loguetown
+
 ![no1-b](https://user-images.githubusercontent.com/72669398/139532023-bfb397e9-8eda-4e94-98fb-ebbc02792053.jpg)
 
 - Alabasta
+
 ![no1-c](https://user-images.githubusercontent.com/72669398/139532030-d27cb209-4c2a-4a23-bbdb-9839961f6ccc.jpg)
 
 - EniesLobby
+
 ![no1-d](https://user-images.githubusercontent.com/72669398/139532033-d6ade27c-f08e-4336-9b85-076087762f5e.jpg)
 
 - Water7
+
 ![no1-f](https://user-images.githubusercontent.com/72669398/139532611-e8c121ba-c061-4d6c-86c1-64a800db6f4e.jpg)
 
 - Skypie
+
 ![no1-e](https://user-images.githubusercontent.com/72669398/139532034-b59be5ae-9cb5-40c0-b196-778cbd7cb360.jpg)
 
+Diatas merupakan hasil dari setiap node yang sudah terkoneksi dengan internet.
 
 # Soal No 2
 Luffy ingin menghubungi Franky yang berada di EniesLobby dengan denden mushi. Kalian diminta Luffy untuk membuat website utama dengan mengakses ``franky.yyy.com`` dengan alias ``www.franky.yyy.com`` pada folder kaizoku
 
+Kami melakukan konfigurasi terhadap file ``/etc/bind/named.conf.local`` dengan menambahkan seperti berikut pada server EniesLobby, :
+
 ![no2-a](https://user-images.githubusercontent.com/72669398/139532616-911786c6-c4e6-486d-bdb8-a23c80e39d4d.jpg)
 
+Kemudian, dibuat direktori baru ``/etc/bind/kaizoku`` Selanjutnya, menambahkan konfigurasi pada ``/etc/bind/kaizoku/franky.d02.com`` 
+
 ![no2-b](https://user-images.githubusercontent.com/72669398/139532619-37f9750b-a33e-4555-b963-55d4f9a24bdf.jpg)
+
+Kemudian, dilakukan testing ``ping franky.d02.com``dan ``ping www.franky.d02.com``menghasilkan seperti berikut:
 
 ![no2-c](https://user-images.githubusercontent.com/72669398/139532621-c51c4602-0b86-4452-bae4-07a761cfaff3.jpg)
 
 # Soal No 3
-Setelah itu buat subdomain ``super.franky.yyy.com`` dengan alias ``www.super.franky.yyy.com`` yang diatur DNS nya di EniesLobby dan mengarah ke Skypie
+Setelah itu buat subdomain ``super.franky.yyy.com``dengan alias ``www.super.franky.yyy.com`` yang diatur DNS nya di EniesLobby dan mengarah ke Skypie
 
 # Soal No 4
 Buat juga reverse domain untuk domain utama 
