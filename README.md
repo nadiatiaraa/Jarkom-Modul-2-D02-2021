@@ -31,7 +31,7 @@ Kemudian, konfigurasi dilakukan pada setiap node yang ada seperti berikut:
 ![no1-d](https://user-images.githubusercontent.com/72669398/139532033-d6ade27c-f08e-4336-9b85-076087762f5e.jpg)
 
 - Water7
-
+![no1-f](https://user-images.githubusercontent.com/72669398/139532611-e8c121ba-c061-4d6c-86c1-64a800db6f4e.jpg)
 
 - Skypie
 ![no1-e](https://user-images.githubusercontent.com/72669398/139532034-b59be5ae-9cb5-40c0-b196-778cbd7cb360.jpg)
@@ -39,6 +39,12 @@ Kemudian, konfigurasi dilakukan pada setiap node yang ada seperti berikut:
 
 # Soal No 2
 Luffy ingin menghubungi Franky yang berada di EniesLobby dengan denden mushi. Kalian diminta Luffy untuk membuat website utama dengan mengakses ``franky.yyy.com`` dengan alias ``www.franky.yyy.com`` pada folder kaizoku
+
+![no2-a](https://user-images.githubusercontent.com/72669398/139532616-911786c6-c4e6-486d-bdb8-a23c80e39d4d.jpg)
+
+![no2-b](https://user-images.githubusercontent.com/72669398/139532619-37f9750b-a33e-4555-b963-55d4f9a24bdf.jpg)
+
+![no2-c](https://user-images.githubusercontent.com/72669398/139532621-c51c4602-0b86-4452-bae4-07a761cfaff3.jpg)
 
 # Soal No 3
 Setelah itu buat subdomain ``super.franky.yyy.com`` dengan alias ``www.super.franky.yyy.com`` yang diatur DNS nya di EniesLobby dan mengarah ke Skypie
