@@ -81,8 +81,16 @@ Pada server EniesLobby, pada file ``/etc/bind/kaizoku/franky.d02.com diedit`` me
 # Soal No 4
 Buat juga reverse domain untuk domain utama 
 
+![no4-a](https://user-images.githubusercontent.com/72669398/139533600-02ecff88-37a5-4436-a43a-3f5f30abd8c1.jpg)
+![no4-b](https://user-images.githubusercontent.com/72669398/139533608-2afd91cd-7a63-465c-9ffc-da3e9fc668d7.jpg)
+![no4-c](https://user-images.githubusercontent.com/72669398/139533610-fbd3faa9-30fe-4d04-9821-71d896c19290.jpg)
+
 # Soal No 5
 Supaya tetap bisa menghubungi Franky jika server EniesLobby rusak, maka buat Water7 sebagai DNS Slave untuk domain utama
+
+![no5-a](https://user-images.githubusercontent.com/72669398/139533611-47a5c5a8-afae-4ef8-b644-a9f0443107d0.jpg)
+![no5-b](https://user-images.githubusercontent.com/72669398/139533612-55a22668-7898-45be-bf82-9642cc58353c.jpg)
+![no5-c](https://user-images.githubusercontent.com/72669398/139533614-acf02a5b-a4c8-4789-8c52-3be327012eb9.jpg)
 
 # Soal No 6
 Setelah itu terdapat subdomain ``mecha.franky.yyy.com`` dengan alias ``www.mecha.franky.yyy.com`` yang didelegasikan dari EniesLobby ke Water7 dengan IP menuju ke Skypie dalam folder sunnygo
