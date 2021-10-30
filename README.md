@@ -1,5 +1,5 @@
 # Jarkom-Modul-2-D02-2021
-**Laporan Resmi Praktikum JarKom**
+**Laporan Resmi Praktikum JarKom** \
 **Nama Anggota Kelompok D02**
 - Sabrina Lydia Simanjuntak (05111940000107)
 - Zulfayanti Sofia Solichin (05111940000189)
