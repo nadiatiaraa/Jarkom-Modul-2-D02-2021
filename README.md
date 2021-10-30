@@ -3,7 +3,7 @@ Luffy adalah seorang yang akan jadi Raja Bajak Laut. Demi membuat Luffy menjadi 
 
 <img width="642" alt="Screen Shot 2021-10-28 at 22 49 43" src="https://user-images.githubusercontent.com/72669398/139291194-1e71e271-4ae7-4ed9-9549-54fad2e22d1a.png">
 
-EniesLobby akan dijadikan sebagai DNS Master, Water7 akan dijadikan DNS Slave, dan Skypie akan digunakan sebagai Web Server. Terdapat 2 Client yaitu Loguetown, dan Alabasta. Semua node terhubung pada router Foosha, sehingga dapat mengakses internet (1). 
+EniesLobby akan dijadikan sebagai DNS Master, Water7 akan dijadikan DNS Slave, dan Skypie akan digunakan sebagai Web Server. Terdapat 2 Client yaitu Loguetown, dan Alabasta. Semua node terhubung pada router Foosha, sehingga dapat mengakses internet. 
 
 # Soal & Jawaban
 # Soal No 1
