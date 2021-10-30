@@ -16,6 +16,8 @@ EniesLobby akan dijadikan sebagai DNS Master, Water7 akan dijadikan DNS Slave, d
 
 ![no1](https://user-images.githubusercontent.com/72669398/139531800-575957e2-0747-4627-9871-f3029f3dcfb5.jpg)
 
+
+
 # Soal No 2
 Luffy ingin menghubungi Franky yang berada di EniesLobby dengan denden mushi. Kalian diminta Luffy untuk membuat website utama dengan mengakses ``franky.yyy.com`` dengan alias ``www.franky.yyy.com`` pada folder kaizoku
 
