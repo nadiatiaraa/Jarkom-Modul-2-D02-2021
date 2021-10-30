@@ -102,17 +102,16 @@ Kemudian dilakukan testing seperti berikut:
 # Soal No 5
 Supaya tetap bisa menghubungi Franky jika server EniesLobby rusak, maka buat Water7 sebagai DNS Slave untuk domain utama
 
-
+Lakukan konfigurasi pada file ``/etc/bind/named.conf.local``
 
 ![no5-a](https://user-images.githubusercontent.com/72669398/139533611-47a5c5a8-afae-4ef8-b644-a9f0443107d0.jpg)
 
-
-
 ![no5-b](https://user-images.githubusercontent.com/72669398/139533612-55a22668-7898-45be-bf82-9642cc58353c.jpg)
 
-
+Kemudian dilakukan testing seperti berikut dengan melakukan ping dengan server Longuetown:
 
 ![no5-c](https://user-images.githubusercontent.com/72669398/139533614-acf02a5b-a4c8-4789-8c52-3be327012eb9.jpg)
+
 
 # Soal No 6
 Setelah itu terdapat subdomain ``mecha.franky.yyy.com`` dengan alias ``www.mecha.franky.yyy.com`` yang didelegasikan dari EniesLobby ke Water7 dengan IP menuju ke Skypie dalam folder sunnygo
