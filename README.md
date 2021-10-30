@@ -3,7 +3,7 @@
 **Nama Anggota Kelompok D02**
 - Sabrina Lydia Simanjuntak (05111940000107)
 - Zulfayanti Sofia Solichin (05111940000189)
-- Nadia Tiara Febriana (05111940000217)
+- Nadia Tiara Febriana (05111940000217)<br><br>
 Luffy adalah seorang yang akan jadi Raja Bajak Laut. Demi membuat Luffy menjadi Raja Bajak Laut, Nami ingin membuat sebuah peta, bantu Nami untuk membuat peta berikut :
 
 <img width="642" alt="Screen Shot 2021-10-28 at 22 49 43" src="https://user-images.githubusercontent.com/72669398/139291194-1e71e271-4ae7-4ed9-9549-54fad2e22d1a.png">
@@ -64,17 +64,27 @@ Kemudian, dilakukan testing ``ping franky.d02.com``dan ``ping www.franky.d02.com
 # Soal No 3
 Setelah itu buat subdomain ``super.franky.yyy.com``dengan alias ``www.super.franky.yyy.com`` yang diatur DNS nya di EniesLobby dan mengarah ke Skypie
 
-Pada server EniesLobby, pada file ``/etc/bind/kaizoku/franky.d02.com diedit`` menjadi seperti berikut:
+Pada server EniesLobby, pada file ``/etc/bind/kaizoku/franky.d02.com`` diedit menjadi seperti berikut:
 
 ![no3-a](https://user-images.githubusercontent.com/72669398/139533158-6a633d40-aba1-4e11-8c18-f37cf2607e6a.jpg)
 
+Kemudian edit file``/etc/bind/named.conf.options`` menjadi sebagi berikut:
+
 ![no3-b](https://user-images.githubusercontent.com/72669398/139533162-aba4cff1-b332-4506-a409-949b890d3ffe.jpg)
+
+Kemudian edit file``/etc/bind/named.conf.local`` menjadi sebagi berikut:
 
 ![no3-c](https://user-images.githubusercontent.com/72669398/139533163-a10b9333-5093-4b92-8d1e-2fdc0d7cb72b.jpg)
 
+Kemudian pada node ``Skypie`` buka file ``/etc/bind/named.conf.options`` dan edit filenya menjadi sebagai berikut:
+
 ![no3-d](https://user-images.githubusercontent.com/72669398/139533165-76629c50-65c6-4350-8532-603eae4d5e18.jpg)
 
+Kemudian, buat direktori dengan nama delegasi, lalu Copy db.local ke direktori pucang dan edit namanya menjadi super.franky.d02.com. Lalu edit file tersebut menjadi sebagai berikut:
+
 ![no3-e](https://user-images.githubusercontent.com/72669398/139533252-6eb25c20-d923-4984-8570-32101ae42e30.jpg)
+
+Kemudian, dilakukan testing ``ping super.franky.d02.com``dan ``ping www.super.franky.d02.com`` pada client Loguetown menghasilkan seperti berikut:
 
 ![no3-f](https://user-images.githubusercontent.com/72669398/139533253-41dfa946-c784-4157-9766-2dbb3ac4dd17.jpg)
 
@@ -85,7 +95,8 @@ Pada Server EnniesLobby file ``/etc/bind/named.conf.local`` diedit menjadi sebag
 
 ![no4-a](https://user-images.githubusercontent.com/72669398/139533600-02ecff88-37a5-4436-a43a-3f5f30abd8c1.jpg)
 
-Kemudian, konfigurasi pada file ``/etc/bind/kaizoku/2.22.10.in-addr.arpa`` dilakukan seperti berikut ini:
+
+Kemudian, Copykan file db.local pada path /etc/bind ke dalam folder jarkom yang baru saja dibuat dan ubah namanya menjadi ``2.22.10.in-addr.arpa`` lalu ubah konfigurasi pada file ``/etc/bind/kaizoku/2.22.10.in-addr.arpa`` dilakukan seperti berikut ini:
 
 ![no4-b](https://user-images.githubusercontent.com/72669398/139533608-2afd91cd-7a63-465c-9ffc-da3e9fc668d7.jpg)
 
@@ -102,7 +113,7 @@ Lakukan konfigurasi pada file ``/etc/bind/named.conf.local``
 
 ![no5-b](https://user-images.githubusercontent.com/72669398/139533612-55a22668-7898-45be-bf82-9642cc58353c.jpg)
 
-Kemudian dilakukan testing seperti berikut dengan melakukan ping dengan server Longuetown:
+Kemudian untuk testing, matikan servi bind9 pada server ``EniesLobby`` testing seperti berikut dengan melakukan ping dengan server Longuetown:
 
 ![no5-c](https://user-images.githubusercontent.com/72669398/139533614-acf02a5b-a4c8-4789-8c52-3be327012eb9.jpg)
 
