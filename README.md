@@ -68,28 +68,50 @@ Pada server EniesLobby, pada file ``/etc/bind/kaizoku/franky.d02.com diedit`` me
 
 ![no3-a](https://user-images.githubusercontent.com/72669398/139533158-6a633d40-aba1-4e11-8c18-f37cf2607e6a.jpg)
 
+masukkan konfigurasi pada EniesLobby sebagai berikut
+
 ![no3-b](https://user-images.githubusercontent.com/72669398/139533162-aba4cff1-b332-4506-a409-949b890d3ffe.jpg)
 
 ![no3-c](https://user-images.githubusercontent.com/72669398/139533163-a10b9333-5093-4b92-8d1e-2fdc0d7cb72b.jpg)
 
+masukkan konfigurasi pada Skypie sebagai berikut
+
 ![no3-d](https://user-images.githubusercontent.com/72669398/139533165-76629c50-65c6-4350-8532-603eae4d5e18.jpg)
 
 ![no3-e](https://user-images.githubusercontent.com/72669398/139533252-6eb25c20-d923-4984-8570-32101ae42e30.jpg)
+
+masukkan konfigurasi pada Longuetown sebagai berikut
 
 ![no3-f](https://user-images.githubusercontent.com/72669398/139533253-41dfa946-c784-4157-9766-2dbb3ac4dd17.jpg)
 
 # Soal No 4
 Buat juga reverse domain untuk domain utama 
 
+Pada Server EnniesLobby file ``/etc/bind/named.conf.local`` diedit menjadi sebagai berikut:
+
 ![no4-a](https://user-images.githubusercontent.com/72669398/139533600-02ecff88-37a5-4436-a43a-3f5f30abd8c1.jpg)
+
+Kemudian, konfigurasi pada file ``/etc/bind/kaizoku/2.22.10.in-addr.arpa`` dilakukan seperti berikut ini:
+
 ![no4-b](https://user-images.githubusercontent.com/72669398/139533608-2afd91cd-7a63-465c-9ffc-da3e9fc668d7.jpg)
+
+Kemudian dilakukan testing seperti berikut:
+
 ![no4-c](https://user-images.githubusercontent.com/72669398/139533610-fbd3faa9-30fe-4d04-9821-71d896c19290.jpg)
 
 # Soal No 5
 Supaya tetap bisa menghubungi Franky jika server EniesLobby rusak, maka buat Water7 sebagai DNS Slave untuk domain utama
 
+
+
 ![no5-a](https://user-images.githubusercontent.com/72669398/139533611-47a5c5a8-afae-4ef8-b644-a9f0443107d0.jpg)
+
+
+
 ![no5-b](https://user-images.githubusercontent.com/72669398/139533612-55a22668-7898-45be-bf82-9642cc58353c.jpg)
+
+
+
 ![no5-c](https://user-images.githubusercontent.com/72669398/139533614-acf02a5b-a4c8-4789-8c52-3be327012eb9.jpg)
 
 # Soal No 6
