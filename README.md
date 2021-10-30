@@ -64,6 +64,20 @@ Kemudian, dilakukan testing ``ping franky.d02.com``dan ``ping www.franky.d02.com
 # Soal No 3
 Setelah itu buat subdomain ``super.franky.yyy.com``dengan alias ``www.super.franky.yyy.com`` yang diatur DNS nya di EniesLobby dan mengarah ke Skypie
 
+Pada server EniesLobby, pada file ``/etc/bind/kaizoku/franky.d02.com diedit`` menjadi seperti berikut:
+
+![no3-a](https://user-images.githubusercontent.com/72669398/139533158-6a633d40-aba1-4e11-8c18-f37cf2607e6a.jpg)
+
+![no3-b](https://user-images.githubusercontent.com/72669398/139533162-aba4cff1-b332-4506-a409-949b890d3ffe.jpg)
+
+![no3-c](https://user-images.githubusercontent.com/72669398/139533163-a10b9333-5093-4b92-8d1e-2fdc0d7cb72b.jpg)
+
+![no3-d](https://user-images.githubusercontent.com/72669398/139533165-76629c50-65c6-4350-8532-603eae4d5e18.jpg)
+
+![no3-e](https://user-images.githubusercontent.com/72669398/139533252-6eb25c20-d923-4984-8570-32101ae42e30.jpg)
+
+![no3-f](https://user-images.githubusercontent.com/72669398/139533253-41dfa946-c784-4157-9766-2dbb3ac4dd17.jpg)
+
 # Soal No 4
 Buat juga reverse domain untuk domain utama 
 
